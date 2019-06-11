@@ -4,12 +4,12 @@ function myAnimal() {
   return animal;
 }
 
-function yourAnimal(str) {
+function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
-  animal = str;
-  return animal;
+  var an = "cat";
+  return an;
 }
 
 function add2(n) {
